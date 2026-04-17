@@ -92,16 +92,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\Domain.csproj">
-      <Project>{d32b2229-2123-4459-9eb3-785985e2612a}</Project>
-      <Name>Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DataAccesss\DataAccesss.csproj">
-      <Project>{94e3f3ed-fab7-4b05-99b1-611cef1d8f1d}</Project>
-      <Name>DataAccesss</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
